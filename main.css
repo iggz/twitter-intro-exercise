@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	/*background-color: #c0deed;*/
+}
+
+header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	background-color: #0084b4;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin-top: 100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.realDonaldTrump,
+.ye {
+	justify-content: space-around;
+	flex-basis: 50%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.trump,
+.kanye {
+	display: flex;
+	flex-direction: column;
+}
+
+li {
+	padding: 3px;
+	margin: 3px 0px;
+}
